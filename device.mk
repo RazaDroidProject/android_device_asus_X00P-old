@@ -20,6 +20,10 @@ DEVICE_PATH := device/asus/X00P
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/asus/X00P/X00P-vendor.mk)
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
