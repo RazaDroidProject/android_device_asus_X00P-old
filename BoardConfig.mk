@@ -25,6 +25,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := X00P_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-07-05
