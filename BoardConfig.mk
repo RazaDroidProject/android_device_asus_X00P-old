@@ -28,7 +28,7 @@ TARGET_KERNEL_CONFIG := X00P_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-07-05
+VENDOR_SECURITY_PATCH := 2020-03-05
 
 # Inherit the proprietary files
 -include vendor/asus/X00P/BoardConfigVendor.mk
